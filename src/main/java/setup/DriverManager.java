@@ -4,7 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
-public class Base {
+public class DriverManager {
 	protected WebDriver driver;
 	public void openBrowser() throws InterruptedException {
 
@@ -16,4 +16,9 @@ public class Base {
      // Maximize window
      driver.manage().window().maximize();
 	}
+	
+	public  void quitDriver() {
+          driver.quit();
+        }
+    
 }
