@@ -6,7 +6,8 @@
       <class name="Testing.TestingClass1">
         <methods>
           <include name="launchingBrowser"/>
-          <include name="homePageVerify"/>
+          <include name="VerifyAgentContact"/>
+          <include name="closedBrowser"/>
         </methods>
       </class> <!-- Testing.TestingClass1 -->
     </classes>
